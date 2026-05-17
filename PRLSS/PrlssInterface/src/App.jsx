@@ -16,10 +16,10 @@ function App() {
         <Route path="/map" element={<Map />} />
         <Route path="/help" element={<Help />} />
         <Route path="/about" element={<About />} />
-        <Route path="/recomandation" element={<RecommendationPage />} />
+        <Route path="/RecommendationPage" element={<RecommendationPage />} />
       </Routes>
       <Footer />
-    </>
+    </> 
   );
 }
 
